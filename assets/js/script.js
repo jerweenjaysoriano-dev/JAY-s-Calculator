@@ -2,9 +2,9 @@
 function ENTER() {
   const name = document.getElementById("name").value;
   if (name.trim() === "") {
-    document.getElementById("result").innerText = "Put your name first YOU STUPID NIGGER.";
+    document.getElementById("result").innerText = "Put your name first.";
   } else {
-    document.getElementById("result").innerText = `${name} IS GAYYY `;
+    document.getElementById("result").innerText = `Hello,${name} Good morning `;
   }
 }
 
@@ -14,7 +14,7 @@ function getNumbers() {
   const num2 = parseFloat(document.getElementById("num2").value);
 
   if (isNaN(num1) || isNaN(num2)) {
-    document.getElementById("result").innerText = "Enter valid numbers first YOU FUCKING NIGGER.";
+    document.getElementById("result").innerText = "Enter valid numbers first.";
     return null;
   }
   return { num1, num2 };
