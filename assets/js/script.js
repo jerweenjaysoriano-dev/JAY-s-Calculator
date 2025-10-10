@@ -4,7 +4,7 @@ function ENTER() {
   if (name.trim() === "") {
     document.getElementById("result").innerText = "Put your name first.";
   } else {
-    document.getElementById("result").innerText = `Hello,${name} Good morning `;
+    document.getElementById("result").innerText = `Hello,${name} Good morning how can i help you?`;
   }
 }
 
