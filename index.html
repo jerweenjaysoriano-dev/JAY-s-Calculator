@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JAY JAY's Calculator</title>
+  <title>JAY's Calculator</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>Calculator</h1>
+  <div id="calculator">
+    <input type="text" id="display" disabled>
 
-  <input type="text" id="name" placeholder="Enter your name"><br><br>
-  <button onclick="ENTER()">ENTER</button>
+   <div class="buttons">
+    <button class="btn" onclick="press('7')">7</button>
+    <button class="btn" onclick="press('8')">8</button>
+    <button class="btn" onclick="press('9')">9</button>
+    <button class="btn operator" onclick="press('÷')">÷</button>
 
-  <hr>
+    <button class="btn" onclick="press('4')">4</button>
+    <button class="btn" onclick="press('5')">5</button>
+    <button class="btn" onclick="press('6')">6</button>
+    <button class="btn operator" onclick="press('×')">×</button>
 
-  <input type="number" id="num1" placeholder="Enter first number">
-  <input type="number" id="num2" placeholder="Enter second number"><br><br>
+    <button class="btn" onclick="press('1')">1</button>
+    <button class="btn" onclick="press('2')">2</button>
+    <button class="btn" onclick="press('3')">3</button>
+    <button class="btn operator" onclick="press('−')">−</button>
 
-  <button onclick="addNumbers()">Add</button>
-  <button onclick="subtractNumbers()">Subtract</button>
-  <button onclick="multiplyNumbers()">Multiply</button>
-  <button onclick="divideNumbers()">Divide</button>
+    <button class="btn" onclick="press('0')">0</button>
+    <button class="btn" onclick="press('.')">.</button>
+    <button class="btn equals" onclick="calculate()">=</button>
+    <button class="btn operator" onclick="press('+')">+</button>
 
-  <p id="result"></p>
+    <button class="btn clear" onclick="clearDisplay()">C</button>
+   </div>
+ </div>
 
-  <script src="assets/js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
