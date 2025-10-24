@@ -25,7 +25,7 @@ function press(value) {
   }
 
   document.getElementById('display').value = displayStr;
-}
+
 
 // 3. Function to calculate the result of the expression
 function calculate() {
