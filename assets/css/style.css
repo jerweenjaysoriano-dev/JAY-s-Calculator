@@ -11,8 +11,8 @@ body {
 
 /*  Calculator box */
 #calculator {
-  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
-  border: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(180deg, rgba(248, 248, 248, 0.986), rgb(255, 255, 255));
+  border: 2px solid rgb(10, 6, 6);
   backdrop-filter: blur(8px) saturate(120%);
   padding: 22px;
   border-radius: 14px;
@@ -22,12 +22,12 @@ body {
 
 /*  Display */
 #display {
-  width: 92%;
+  width: 91%;
   height: 54px;
   font-size: 1.4em;
   text-align: right;
   padding: 10px;
-  border: none;
+  border:  2px solid rgb(10, 6, 6);
   outline: none;
   background: rgba(0, 0, 0, 0.25);
   color: #fffffffb;
@@ -47,7 +47,7 @@ body {
 .btn {
   height: 52px;
   font-size: 1.05em;
-  border: none;
+  border: 2px solid rgb(10, 6, 6) ;
   border-radius: 10px;
   background: linear-gradient(180deg,#1e1b2e,#072333);
   color: #fff;
