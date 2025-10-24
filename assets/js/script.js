@@ -23,7 +23,7 @@ function press(value) {
     input += value;
     displayStr += value;
   }
-  {
+  
   document.getElementById('display').value = displayStr;
 }
 
